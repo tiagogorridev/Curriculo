@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+
+    background-color: #EEE6E1;
+
+    font-family: "Staatliches", sans-serif;
+    font-weight: 400;
+    font-style: normal
+}
+
+.coluna-esquerda {
+
+}
+.esquerda > img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
