@@ -1,13 +1,13 @@
-body {
-    overflow: hidden;
-}
-
 .local {
-    text-align: right;
+    padding-left: 40px;
 }
 
 .local > img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
+}
+
+.direita {
+    padding-top: 230px;
 }
