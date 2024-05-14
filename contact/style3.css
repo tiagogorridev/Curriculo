@@ -1,31 +1,34 @@
 body {
-    font-family: "Cinzel", serif;
-    overflow: hidden;
     color: white;
     background-color: #1A1818;
     font-family: "Montserrat", sans-serif;
-}
-
-.text-grande {
-    margin: 0px;
-    color: white;
-}
-
-.text {
     font-size: 17px;
-    color: white;
-}
+    
+    overflow: hidden;
 
-.text-pequeno, .text-pequeno a {
-    color: white;
-    font-size: 15px;
-    text-decoration: none;
-}
-
-p {
-    margin: 2px;
+    padding: 0px;
 }
 
 .esquerda {
-    padding-right: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 200px;
+    margin: 4px;
+}
+
+.escrita {
+    font-family: "Cinzel", serif;
+    margin: 0px;
+
+}
+
+h1 {
+    font-size: 210px;
+    font-weight: 300;
+    line-height: 0.7;
+}
+
+h2 {
+    font-size: 20px;
 }
