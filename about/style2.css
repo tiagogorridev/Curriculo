@@ -39,11 +39,22 @@ p, ul {
 
 button {
     font-size: 25px;
-    color: white;
+    
     background-color: #1A1818;
 
     border: solid 7px #1A1818;
     border-radius: 8px;
+}
+
+button > a {
+    color: white;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #F190A3;
+    transform: scale(1.2);
+    transition: 1s ease;
 }
 
 .botao {
