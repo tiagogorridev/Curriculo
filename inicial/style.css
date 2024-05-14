@@ -29,7 +29,6 @@ main {
 
 .direita > .local {
     text-align: right;
-    height: 100px;
 }
 
 .direita > .local > img {
@@ -49,7 +48,6 @@ main {
 
 .direita {
     padding-right: 200px;
-    padding-top: 300px;
 }
 
 .direita > .sobres a {
@@ -57,7 +55,7 @@ main {
     font-family: "Cinzel", serif;
     font-weight: 300;
     line-height: 0.7;
-    margin: 0;
+    margin: 0px;
     color: #392630;
     text-decoration: none;
 }
