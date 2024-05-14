@@ -1,26 +1,18 @@
 body {
     color: white;
     background-color: #1A1818;
-    font-family: "Montserrat", sans-serif;
     font-size: 17px;
-    
-    overflow: hidden;
-
     padding: 0px;
 }
 
-.esquerda {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-top: 200px;
-    margin: 4px;
+.text, .text-grande {
+    color: white;
+    margin: 0px;
 }
 
-.escrita {
-    font-family: "Cinzel", serif;
-    margin: 0px;
-
+.esquerda > .slow-appearance > .text-pequeno a {
+    color: white;
+    text-decoration: none;
 }
 
 h1 {
@@ -31,4 +23,9 @@ h1 {
 
 h2 {
     font-size: 20px;
+}
+
+.esquerda {
+    padding-top: 450px;
+    padding-right: 850px;
 }

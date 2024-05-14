@@ -1,12 +1,10 @@
-body {
-    overflow: hidden;
-}
 .text-grande {
     color: #1A1818;
     margin: 0px;
 }
 
 .text-medio {
+    color: #1A1818;
     padding-top: 17px;
 }
 
@@ -16,32 +14,27 @@ h1 {
     margin: 0px;
 }
 
+h2 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
 p, ul {
     line-height: 1,2px;
     font-size: 17px;
     margin: 0px;
     margin-bottom: 10px;
+    line-height: 1.3;
 }
 
 .paragrafos {
-    padding: 0px;
+    padding: 10px;
     padding-top: 15px;
-}
-
-h2 {
-    font-size: 22px;
-    text-decoration: underline;
 }
 
 .esquerda {
     padding-right: 70px;
     padding-top: 0px;
-
-}
-
-.botao {
-    padding-top: 0px;
-    padding-left: 80px;
 }
 
 button {
@@ -51,6 +44,11 @@ button {
 
     border: solid 7px #1A1818;
     border-radius: 8px;
+}
+
+.botao {
+    padding-top: 20px;
+    padding-left: 80px;
 }
 
 .local {
