@@ -1,34 +1,31 @@
-body {
-    color: #392630;
-    background-color: #ECE7E1;
-    font-family: "Montserrat", sans-serif;
-    font-size: 17px;
-    
-    overflow: hidden;
-
-    padding: 0px;
-}
-
-.esquerda {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-top: 200px;
-    margin: 4px;
-}
-
-.escrita {
-    font-family: "Cinzel", serif;
+.text-grande {
+    color: #1A1818;
     margin: 0px;
+}
 
+.text-medio {
+    padding-top: 20px;
 }
 
 h1 {
-    font-size: 210px;
-    font-weight: 300;
-    line-height: 0.7;
+    font-weight: 500;
+    font-size: 40px;
+    margin: 0px;
+}
+
+p, ul {
+    font-size: 17px;
+    margin: 0px;
+}
+
+.paragrafos {
+    padding: 15px;
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 25px;
+}
+
+.esquerda {
+    padding-right: 520px;
 }
