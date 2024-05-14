@@ -1,3 +1,6 @@
+body {
+    overflow: hidden;
+}
 .text-grande {
     color: #1A1818;
     margin: 0px;
@@ -17,10 +20,12 @@ p, ul {
     line-height: 1,2px;
     font-size: 17px;
     margin: 0px;
+    margin-bottom: 10px;
 }
 
 .paragrafos {
-    padding: 15px;
+    padding: 0px;
+    padding-top: 15px;
 }
 
 h2 {
@@ -29,11 +34,14 @@ h2 {
 }
 
 .esquerda {
-    padding-right: 520px;
+    padding-right: 70px;
+    padding-top: 0px;
+
 }
 
 .botao {
-    padding-top: 10px;
+    padding-top: 0px;
+    padding-left: 80px;
 }
 
 button {
@@ -41,6 +49,17 @@ button {
     color: white;
     background-color: #1A1818;
 
-    border: solid 12px #1A1818;
+    border: solid 7px #1A1818;
+    border-radius: 8px;
+}
+
+.local {
+    padding-right: 420px;
+    padding-top: 50px;
+}
+
+.local > img {
+    width: 300px;
+    height: 300px;
     border-radius: 8px;
 }

@@ -1,10 +1,41 @@
 body {
+    font-family: "Cinzel", serif;
+    overflow: hidden;
     color: white;
     background-color: #1A1818;
     font-family: "Montserrat", sans-serif;
-    font-size: 11px;
-    
-    overflow: hidden;
-    margin: 10px;
-    padding: 0px;
+}
+
+.text-grande {
+    margin: 0px;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.text {
+    font-size: 25px;
+    color: white;
+}
+
+.text-pequeno, .text-pequeno a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+h2 {
+    margin: 2px;
+}
+
+h3 {
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+.esquerda {
+    padding-right: 520px;
+}
+
+.escolas {
+    padding: 100px;
 }

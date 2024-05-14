@@ -44,11 +44,12 @@ h2 {
     line-height: 0.7;
     margin: 20px;
     text-decoration: none;
+    
 
 }
 
 .text-grande > :hover {
     color: black;
     transform: scale(1.2);
-    transition: 1s ease;
+    transition: 0.5s ease;
 }
