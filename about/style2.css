@@ -4,7 +4,7 @@
 }
 
 .text-medio {
-    padding-top: 20px;
+    padding-top: 17px;
 }
 
 h1 {
@@ -14,6 +14,7 @@ h1 {
 }
 
 p, ul {
+    line-height: 1,2px;
     font-size: 17px;
     margin: 0px;
 }
@@ -23,9 +24,23 @@ p, ul {
 }
 
 h2 {
-    font-size: 25px;
+    font-size: 22px;
+    text-decoration: underline;
 }
 
 .esquerda {
     padding-right: 520px;
+}
+
+.botao {
+    padding-top: 10px;
+}
+
+button {
+    font-size: 25px;
+    color: white;
+    background-color: #1A1818;
+
+    border: solid 12px #1A1818;
+    border-radius: 8px;
 }
