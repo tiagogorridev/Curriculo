@@ -1,4 +1,5 @@
 body {
+    overflow: hidden;
     color: white;
     background-color: #1A1818;
 }
@@ -30,7 +31,8 @@ h3 {
 }
 
 .esquerda {
-    padding-right: 520px;
+    padding-right: 700px;
+    padding-top: 300px;
 }
 
 .escolas {

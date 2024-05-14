@@ -1,3 +1,7 @@
+body {
+    overflow: hidden;
+}
+
 .local {
     padding-left: 40px;
 }
